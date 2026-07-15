@@ -1,4 +1,8 @@
 ﻿streamlit==1.36.0
 pandas==2.2.2
+numpy==1.26.4
 openpyxl==3.1.5
 geopy==2.4.1
+pydeck==0.9.1
+reportlab==4.2.2
+folium==0.17.0
