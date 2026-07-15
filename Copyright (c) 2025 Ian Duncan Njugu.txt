@@ -1,0 +1,5 @@
+Copyright (c) 2025 <Ian Duncan Njuguna>
+All rights reserved unless otherwise noted in individual files.
+
+Primary license: AGPL-3.0-only (Community) OR Commercial EULA (paid).
+See LICENSE for details.

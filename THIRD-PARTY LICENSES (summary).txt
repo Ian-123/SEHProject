@@ -1,0 +1,16 @@
+THIRD-PARTY LICENSES (summary)
+
+This project uses the following libraries (include their full license texts below or as separate files inside a licenses/ folder):
+
+- Streamlit — Apache License 2.0
+  https://pypi.org/project/streamlit/
+- pandas — BSD 3-Clause
+  https://pypi.org/project/pandas/
+- geopy — MIT License
+  https://pypi.org/project/geopy/
+- openpyxl — MIT License
+  https://pypi.org/project/openpyxl/
+- pydeck — Apache License 2.0
+  https://pypi.org/project/pydeck/
+
+For compliance, bundle the complete license texts from each project’s LICENSE file.

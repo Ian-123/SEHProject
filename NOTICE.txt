@@ -1,0 +1,19 @@
+NOTICE
+
+This project includes or depends on third-party open-source components.
+Notices and license terms for those components are provided in
+THIRD_PARTY_LICENSES.txt (and/or within their source repositories).
+
+Attribution highlights:
+- Streamlit (Apache-2.0)
+- pandas (BSD-3-Clause)
+- geopy (MIT)
+- openpyxl (MIT)
+- pydeck (Apache-2.0)
+
+Geocoding: The default geocoder in the community build uses OpenStreetMap Nominatim.
+Use of the public nominatim.openstreetmap.org service is subject to the OSMF Nominatim
+Usage Policy. For production/commercial geocoding or higher volumes, deploy your own
+Nominatim or use a commercial provider.
+
+© 2025 <Ian Duncan Njuguna>. All rights reserved.

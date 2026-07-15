@@ -1,0 +1,66 @@
+COMMERCIAL LICENSE AGREEMENT (EULA)
+Software: Shared Equity Homeownership Property Card (“Software”)
+Copyright (c) 2025 <Ian Duncan Njuguna>. All rights reserved.
+
+1. Grant. Subject to payment of applicable fees and continuous compliance with this EULA,
+   Licensor grants Licensee a limited, non-exclusive, non-transferable, revocable license
+   to install and use the Software solely for Licensee’s internal business purposes.
+
+2. Scope & Limits.
+   (a) No Redistribution. Licensee may not copy, publish, distribute, or provide the
+       Software to any third party except Licensee’s employees and contractors working
+       on Licensee’s behalf under confidentiality obligations.
+   (b) No SaaS Offering. Licensee may not offer the Software as a hosted service to
+       third parties without a separate written agreement with Licensor.
+   (c) No Sublicensing, Assignment, or Transfer, except with Licensor’s prior written consent.
+   (d) No Reverse Engineering, decompilation, or circumvention of technical measures
+       except to the limited extent permitted by applicable law notwithstanding this restriction.
+   (e) Notices. Licensee must not remove or alter copyright, attribution, or license notices.
+
+3. Ownership. The Software is licensed, not sold. Licensor owns all right, title, and
+   interest in and to the Software, including all intellectual property rights. No rights
+   are granted by implication or estoppel.
+
+4. Feedback. If Licensee provides feedback, ideas, or improvements, Licensee grants Licensor
+   a perpetual, worldwide, irrevocable, royalty-free license to use and exploit them
+   without restriction.
+
+5. Third-Party Components. The Software may include or interoperate with third-party
+   components subject to their own licenses (e.g., Streamlit, pandas, geopy, openpyxl, pydeck).
+   Licensee’s use of such components is governed by those licenses, which are provided in
+   THIRD_PARTY_LICENSES.txt or in their respective repositories.
+
+6. Confidentiality. Any non-public information disclosed by Licensor is Licensor’s confidential
+   information. Licensee must protect it with at least the same care used for its own confidential
+   information and not less than reasonable care.
+
+7. Warranty Disclaimer. THE SOFTWARE IS PROVIDED “AS IS” WITHOUT WARRANTIES OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR THAT THE SOFTWARE WILL BE
+   ERROR-FREE OR UNINTERRUPTED.
+
+8. Limitation of Liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT
+   BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE
+   DAMAGES, NOR FOR LOST PROFITS, REVENUE, GOODWILL, OR DATA. LICENSOR’S TOTAL AGGREGATE
+   LIABILITY UNDER THIS EULA SHALL NOT EXCEED THE AMOUNT PAID BY LICENSEE FOR THE SOFTWARE
+   DURING THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+
+9. Term & Termination. This EULA remains in effect until terminated. Licensor may terminate
+   if Licensee materially breaches and fails to cure within 30 days of notice. Upon termination,
+   the license ends and Licensee must stop using and destroy all copies of the Software.
+
+10. Compliance; Audit. During the term and for one year thereafter, Licensor may audit
+    Licensee’s use on reasonable notice to verify compliance.
+
+11. Government. The Software is “commercial computer software.” If acquired by or on behalf
+    of a U.S. government entity, rights are as set forth in this EULA.
+
+12. Export. Licensee must comply with applicable export control laws and regulations.
+
+13. Governing Law. Arizona law governs this EULA (conflict-of-law rules excluded).
+    Venue and jurisdiction lie in state or federal courts located in Maricopa County, AZ.
+
+14. Entire Agreement. This EULA is the entire agreement regarding the Software and
+    supersedes all prior or contemporaneous understandings.
+
+BY INSTALLING OR USING THE SOFTWARE, LICENSEE ACCEPTS THIS EULA.

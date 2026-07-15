@@ -1,0 +1,19 @@
+# Contributing
+
+Thanks for your interest!
+
+## License inbound = outbound
+By default, your contributions are accepted under the project’s dual license:
+AGPL-3.0-only for the community edition and the project’s Commercial License.
+
+To keep dual-licensing possible, we require signing the Individual Contributor
+License Agreement (ICLA) below (one-time). Include this line in your PR
+description to sign:
+
+> I have read and agree to the ICLA at /CLA-Individual.md. Signed: <Ian Duncan Njuguna>, <idnjugun@asu.edu>, <08/18/2025>.
+
+We also require Developer Certificate of Origin (DCO) sign-off:Ian Duncan Njuguna idnjugun@asu.edu
+
+
+By contributing, you agree your contribution is your original work and you have
+the right to license it as above.
