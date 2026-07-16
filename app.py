@@ -35,6 +35,13 @@ def check_password():
 
 if not check_password():
     st.stop()
+# Logout button
+with st.sidebar:
+    if st.button("🚪 Log out"):
+        st.session_state["password_correct"] = False
+        st.rerun()
+
+st.title("🏠 Property Card Database for Shared Equity Homeownership")
 import pydeck as pdk  # white/light basemap maps
 import numpy as np
 import folium
