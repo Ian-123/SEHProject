@@ -5,28 +5,47 @@
 # Deps (install in your app venv):
 #   pip install streamlit==1.36.0 pandas==2.2.2 openpyxl==3.1.5 geopy==2.4.1
 
-import json, os, re
+import json, os, re, hmac
 from datetime import date, datetime
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
+from io import BytesIO
+
+import pandas as pd
+import numpy as np
+import streamlit as st
+import pydeck as pdk
+import folium
+
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
-from io import BytesIO
-import os
-import pandas as pd
-import streamlit as st
-import hmac
+# MUST be the first Streamlit command
+st.set_page_config(
+    page_title="Property Card Database for Shared Equity Homeownership",
+    page_icon="🏠",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
 def check_password():
     if st.session_state.get("password_correct", False):
         return True
 
     st.title("🔒 SEH Property Database Login")
 
-    password = st.text_input("Password", type="password")
+    password = st.text_input(
+        "Password",
+        type="password",
+        key="login_password",
+    )
 
     if st.button("Log In"):
-        if hmac.compare_digest(password, st.secrets["app_password"]):
+        if hmac.compare_digest(
+            password,
+            st.secrets["app_password"],
+        ):
             st.session_state["password_correct"] = True
+            st.session_state.pop("login_password", None)
             st.rerun()
         else:
             st.error("Incorrect password")
@@ -35,31 +54,11 @@ def check_password():
 
 if not check_password():
     st.stop()
-# Logout button
+
 with st.sidebar:
     if st.button("🚪 Log out"):
         st.session_state["password_correct"] = False
         st.rerun()
-
-st.title("🏠 Property Card Database for Shared Equity Homeownership")
-import pydeck as pdk  # white/light basemap maps
-import numpy as np
-import folium
-import pydeck as pdk
-from typing import Optional
-
-# MUST be the first Streamlit command on this page
-def _configure_page_once():
-    if not st.session_state.get("_page_configured", False):
-        st.set_page_config(
-            page_title="Property Card Database for Shared Equity Homeownership",
-            page_icon="🏠",
-            layout="wide",
-            initial_sidebar_state="expanded",
-        )
-        st.session_state["_page_configured"] = True
-
-_configure_page_once()
 
 st.title("🏠 Property Card Database for Shared Equity Homeownership")
 
