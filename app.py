@@ -15,6 +15,26 @@ from io import BytesIO
 import os
 import pandas as pd
 import streamlit as st
+import hmac
+def check_password():
+    if st.session_state.get("password_correct", False):
+        return True
+
+    st.title("🔒 SEH Property Database Login")
+
+    password = st.text_input("Password", type="password")
+
+    if st.button("Log In"):
+        if hmac.compare_digest(password, st.secrets["app_password"]):
+            st.session_state["password_correct"] = True
+            st.rerun()
+        else:
+            st.error("Incorrect password")
+
+    return False
+
+if not check_password():
+    st.stop()
 import pydeck as pdk  # white/light basemap maps
 import numpy as np
 import folium
